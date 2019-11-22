@@ -1,0 +1,46 @@
+body {
+	background-color: #1E1E1E;
+	color: #fff;
+}
+
+.center {
+	margin: auto;
+	width: 50%;
+	border: 1px solid #00abeb;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+#title, #subtitle {
+	text-align: center;
+}
+
+ul#sites {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	margin: auto;
+	width: 100%;
+}
+
+#sites li img {
+	max-width: 30px;
+	max-height: 30px;
+	vertical-align: middle;
+}
+
+#sites li {
+	float: left;
+}
+
+#sites li {
+	color: #fff;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+#sites li:hover {
+	background-color: #111;
+}
